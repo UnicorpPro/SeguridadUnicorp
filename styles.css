@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Fondo gris claro */
+    color: #333; /* Texto negro */
+}header {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    width: 70px; /* Ajustar el tamaño del logo según sea necesario */
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 40px;
+    background-color: #fff; /* Fondo blanco */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, p, ul, label, input, form {
+    color: #333; /* Texto negro */
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Azul */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9; /* Azul más oscuro al pasar el ratón */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d2d3e; /* Azul más oscuro al pasar el ratón */
+}
+
+footer {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
